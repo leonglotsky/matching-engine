@@ -6,4 +6,4 @@ target/
 *.log
 /journal/
 /journals/
-jmh-result*.json
+/jmh-result*.json
