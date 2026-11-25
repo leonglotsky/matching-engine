@@ -42,4 +42,4 @@ jobs:
       - name: Package benchmarks
         run: mvn -B -ntp -DskipTests package
       - name: Run one short benchmark
-        run: java -jar engine-benchmarks/target/benchmarks.jar OrderBookBenchmark.restNonCrossing -f 1 -wi 1 -i 1 -w 1s -r 1s
+        run: java -jar engine-benchmarks/target/benchmarks.jar OrderBookBenchmark.placeAndCancelPassive -f 1 -wi 1 -i 1 -w 1s -r 1s
